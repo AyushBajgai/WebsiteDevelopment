@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    background-color: red;
+  }
+  .Backbody{
+  	width: 920px;
+  }
+  .mdcol150{
+  	width: 50%;
+  	float: left;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: coral;
+  }
+  .Backbody{
+  	width: 940px;
+  }
+  .smcol100{
+  	width: 100%;
+  }
+}
+
+.Logo img{
+	position: fixed;
+    height: 185px;
+    width: 185px;
+}
+
+.Backbody{
+	margin: 0 auto;
+	background-color: #002366;
+	width: 1140px;
+	height: auto;
+}
+.Banner img{
+	width: 100%;
+	height: 100%;
+}
+.Menu{
+	width: 100%;
+	background-color: black;
+	min-height: 50px;
+	margin-top: 0;
+}
+
+.Menu ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 10px;
+}
+.Menu ul li{
+	display: inline;
+	font-size: 25px;
+	color: white;
+	font-variant: small-caps;
+}
+.Menu ul li:hover{
+	background-color: none;
+	border-radius: 7px;
+	border-style: groove;
+}
+
+.col25{
+	width: 23%;
+	float: left;
+	color: white;
+}
+.pride{
+	position: relative;
+	margin: 0;
+}
+
+.lampard img{
+	height: 520px;
+	width: 450px;
+	position: relative;
+}
+
+.Piclist{
+	margin: auto;	
+}
+
+.Player{
+	float: top-right;
+	width: 190px;
+	height: 160px;
+	right: 50px;
+}
+
+.Player img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 12px;
+    left: 465px;
+    position: relative;
+    bottom: 525px;
+    border-radius: 10%;
+}
+
+.Desc{
+	padding: 10px;
+	position: absolute;
+}
+
+.Desc p{
+    font-size: 17px;
+    color: white;
+    margin-right: 480px;
+    position: relative;
+    left: 285px;
+    bottom: 685px;
+    margin-left: 375px;
+    text-align:left;
+}
+
+.Social{
+	position: fixed;
+	background-color: red;
+	max-width: 50px;
+	height: auto;
+	right: 0px;
+	top:250px;
+}
+.Social ul{
+	list-style-type: none;
+}
+
+.Social ul li i{
+	font-weight: bolder;
+	font-size: 50px;
+}
+.Social ul li:hover{
+	background-color:white;
+}
+
+.News{
+	font-family: sans-serif;
+    font-size: 45px;
+    position: relative;
+    bottom: 480px;
+    margin-left: 40px;
+    color: antiquewhite;
+}
+
+.Other{
+	display: block;
+	float: left;
+	max-width: 190px;
+	height: 160px;
+	padding: 20px;
+}
+
+
+.Other img{
+    width: 100%;
+    height: 100%;
+    margin-left: 125px;
+    bottom: 475px;
+    border-radius: 50%;	
+    border:1px solid white;
+    position: relative;
+}
+
+.Text{
+	display: block;
+	float: left;
+	max-width: 190px;
+	height: 160px;
+	padding: 20px;
+}
+
+.Text p{
+    width: 100%;
+    height: 100%;
+    margin-left: 125px;
+    bottom: 475px;
+  	font-family: arial;
+    position: relative;
+    text-align: center;
+    color: grey;
+    font-weight: bolder;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+	<employee>
+		<name>
+			<firstname>Ayush</firstname>
+			<lastname>Bajgai</lastname>
+		</name>
+	<address>
+		<street>Mheipi Marg</street>
+		<area>Sorakhutte</area>
+		<tole>Mheipi-16</tole>
+	</address>
+	<contact>
+		<mobile>+977 9840204142</mobile>
+		<landline>01 4700163</landline>
+	</contact>
+</employee>
+*******
+</employees>

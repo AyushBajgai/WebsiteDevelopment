@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE notes [
+<!ELEMENT notes (note, date, from, to, message)>
+<!ELEMENT note (#PCDATA) >
+<!ELEMENT date (#PCDATA) >
+<!ELEMENT from (#PCDATA) >
+<!ELEMENT to (#PCDATA) >
+<!ELEMENT message (#PCDATA) >
+
+<!ATTLIST note id ID #REQUIRED>
+]>
+
+<notes>
+	<note>
+		<id>1</id>
+		<date>19-02-2020</date>
+		<from>Ramesh Uncle ko chora</from>
+		<to>Gotiya</to>
+		<message>Please visit me at college</message>
+	</note>
+
+	<note id="2">
+		<date>19-02-2020</date>
+		<from>Ramesh Uncle ko chora</from>
+		<to>Agrawal</to>
+		<message>PLease visit me at college</message>
+	</note>
+</notes>

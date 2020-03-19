@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="banner">
+    Banner
+  </div>
+  
+  <div class="navbar">
+    <div class="Menu">Home</div>
+    <div class="Menu">About</div>
+    <div class="Menu">Contact</div>
+  </div>
+ 
+ <div class="Slider">
+   Slider
+  <div class="Pic">
+     <div class="Picture">Pic1</div>
+     <div class="Picture">Pic2</div>
+     <div class="Picture">Pic3</div>
+     <div class="Picture">Pic4</div>
+ </div>
+ 
+ </div>
+ 
+
+ 
+</div>
+
+
+
+<style>
+  
+.banner{
+  background-color:red;
+  height:50px;
+}
+
+.navbar{
+  background-color:blue;
+  justify-content:flex-end;
+  display:flex;
+}
+.Menu{
+  padding:5px;
+}
+.Slider{
+  background-color:pink;
+  height:200px;
+  width:50%;
+}
+
+.Pic{
+  justify-content:flex-end;
+}
+
+
+  
+</style>

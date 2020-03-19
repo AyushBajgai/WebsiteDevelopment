@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>First Form</title>
+	<meta charset="UTF-8">
+	<meta name="Ayush Bajgai" content="First Form">
+<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="Css/FirstForm.css"> 
+</head>
+
+<body>
+<!-- Method type GET -->
+	<form method="GET" action="#" name="firstform" enctype="multipart/form-data">
+	<fieldset>
+		<legend>CONTACT</legend>
+
+	<label>Name : </label>
+	<input type="text" class="Box" name="username" placeholder="Enter Username" required="required" /> <!-- Required makes user to input as compulsory -->
+	<br/>
+
+	<label>E-mail : </label>
+	<input type="text" class="Box" name="e-mail" placeholder="Enter E-mail" required="required" />
+	<br/>
+
+	<label>Contact no. : </label>
+	<input type="number" class="Box" name="number" placeholder="Enter number" required="required" />
+	<br/>
+
+	<label>Message : </label>
+	<textarea name="Message" class="Box" placeholder="Enter Your Message" rows="5" required="required"></textarea>
+	<br/>
+
+	<button name="Send" value="Send Your Message">Submit</button>
+
+	</fieldset>
+	</form>
+</body>
+</html>

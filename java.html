@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java Script</title>
+</head>
+
+<script type="text/javascript">
+	alert("Welcome to my page!");
+</script>
+<body>
+	<h1 onclick="alert('Why you click me??')">Welcome</h1>
+	<button onclick="hello()">Say Hello</button>
+<!--	
+	<script>
+		//This is Single line comment
+		/* This is Double line comment */
+
+		/* Dialogue Boxes
+		1) alert
+		2) prompt
+		3) confirm */
+
+//Allowing the user to take input
+username=prompt('Enter your name?');
+
+	</script>
+
+	<script>
+document.write('Welcome ' + username);
+document.getElementById("Welcome").innerHTML="Welcome " + username;
+	</script>
+
+<div id="Welcome" style="font-weight: bolder; font-size:50px; float:right"></div>
+
+-->
+
+<!-- Making button for closing the window using JS -->
+	<button onclick="closewindow()">Exit Window</button>
+
+<!-- Calculation of Sum -->
+	<h1 onclick="sum()"> Click me for sum!</h1>
+
+<!-- Calculation of Sum -->
+	<h1 onclick="pattern()"> Pattern Print</h1>
+
+<!-- Making Form -->
+<div id="Error"></div>
+	<form method="POST" action="#" name="JavaValidateForm" enctype="multipart/form-data" onsubmit="return validateForm()">
+		<fieldset>
+			<legend>Login</legend>
+
+			<label>Username: </label>
+			<input type="text" name="username" id="username" placeholder="Enter Name"/><br/>
+
+			<label>Password: </label>
+			<input type="Password" name="Password" id="Password" placeholder="Enter Password" /><br/>
+			<input type="submit" name="submit" value="Login" />
+		</fieldset>	
+	</form>	
+
+<!-- Array -->
+	<h1 onclick="names()"> Array</h1>
+
+
+	
+<!-- Linking to Java script -->
+	<script src="javascript/script/my.js"></script>
+</body>
+</html>

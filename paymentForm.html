@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Payment Form</title>
+	<meta charset="utf-8"/>
+	<meta name="Ayush Bajgai" content="Adant Boy"/>
+	<link rel="stylesheet" type="text/css" href="style/style1.css"> 
+</head>
+<body>
+		<h1>
+			Payment Form
+		</h1>
+		<p>Required fields are followed by *</p>
+		<h2>Contact Information</h2>
+	
+	<form method="POST" action="#" name="PaymentForm" enctype="multipart/form-data">
+	
+		<fieldset>
+			<legend>Title</legend>
+
+			<input type="Radio" name="title" value="Mister" checked="checked" />Mister<br/>
+			<input type="Radio" name="title" value="Miss" />Miss
+		</fieldset>
+
+<!-- Better use <abbr> tag for output -->
+		<label>Name : *</label>
+		</abbr><input type="text" name="name" placeholder="Print your name" required="required" /><br/>
+
+		<label>E-mail : *</label>
+		<input type="text" name="Email" placeholder="Provide your ID" required="required" /><br/>
+
+		<label>Password : *</label>
+		<input type="Password" name="Password" required="required" /><br/>
+		
+		<h1>Payment Information</h1>
+
+		<label>Card Type : *</label>
+		<select name="cardType" size="1">
+			<option value="Visa">Visa</option>
+			<option value="Master">Master Card</option>
+			<option value="Paypal">Paypal</option>
+			<option value="Skrill">Skrill</option>
+		</select><br/>
+
+		<label>Card number : *</label>
+		<input type="number" name="cardNo" required="required" /><br/>
+
+		<label>Expiration Date: *</label>
+		<input type="Date" name="date" required="required"><br/>
+
+		<input type="Submit" name="Submit" value="Validate the Payment" />
+
+	</form>
+
+</body>
+</html>

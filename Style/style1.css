@@ -1,0 +1,21 @@
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+legend{
+	text-align: center;
+	flex-direction: none;
+}
+
+fieldset{
+	text-decoration-style: none;
+	flex-direction: none;
+}

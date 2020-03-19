@@ -1,0 +1,26 @@
+<!-- For validation -->
+	<meta charset="utf-8">
+	<meta name="Adant Boy" content="Page Layout" />
+
+<!-- For media query -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Linking Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<!-- Linking Css -->
+	<link rel="stylesheet" type="text/css" href="Style/mystyles.css" />
+
+<!-- Java scripts -->
+	<script type="js/jquery.js"></script>
+	<script type="js/bootstrap.js"></script>
+
+Navbar concept
+
+navbar-light to set a theme
+bg-light for background theme
+navbar-nav means wraps the navbar items such as Home,Menu,Contact and so on.
+navbar-toggler-icon means the number of togglers required to display menu items.
+navbar-toggler toggles the menu items for ml or sm screen
+data-toggle is used by JS when clicking on it, it displays the items.
+data-target means the items that we want to toggle (given by id)
+
